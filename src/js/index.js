@@ -22,7 +22,7 @@ const searchForImages = async newName => {
     });
     const response = await axios({
       method: 'get',
-      url: `https://pixabay.com/api/?key=24835588-34c67f39a9342d1bd89adf1b2&q=${newName}&${params}`,
+      url: `https://pixabay.com/api/?key=28308223-0c2c2ce813bae66b46c0e2992=${newName}&${params}`,
     });
     const { data } = response;
     console.log(data);
